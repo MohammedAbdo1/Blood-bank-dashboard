@@ -1,0 +1,15 @@
+.css-kuwvpq-MuiTableCell-root{
+  text-align: center !important;
+ 
+}
+
+.tss-178gktx-MUIDataTableHeadCell-contentWrapper{
+  text-align: center !important;
+  flex-direction: column;
+ 
+}
+
+.tss-djbknv-MUIDataTablePagination-navContainer {
+  flex-direction: row-reverse;
+  justify-content: flex-end
+}

@@ -1,0 +1,36 @@
+{
+  "name": "yebb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.5",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-data-grid": "^5.17.20",
+    "@mui/x-data-grid-generator": "^5.17.20",
+    "@next/font": "13.1.2",
+    "chart.js": "^4.1.2",
+    "date-fns": "^2.29.3",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.2",
+    "firebase": "^9.15.0",
+    "mui-datatables": "^4.3.0",
+    "next": "13.1.2",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "styled-components": "^5.3.6",
+    "uuid": "^9.0.0"
+  }
+}
