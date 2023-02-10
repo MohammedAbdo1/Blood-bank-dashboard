@@ -1,15 +1,16 @@
-import { Box, Typography } from "@mui/material"
+import { ToolBar } from "../components/common/tool-bar";
+import Table from "../components/users/Table";
+import Modal from "../components/users/modal";
 
 const Page = (props) => {
+  return (
+    <>
+      <ToolBar title="المستخدمين">
+        <Modal />
+      </ToolBar>
+      <Table />
+    </>
+  );
+};
 
-    return (
-        <Box>
-            <Typography>
-                Users
-            </Typography>
-        </Box>
-        
-    )
-}
-
-export default Page
+export default Page;

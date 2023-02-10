@@ -1,15 +1,49 @@
-.css-kuwvpq-MuiTableCell-root{
+.css-kuwvpq-MuiTableCell-root {
   text-align: center !important;
- 
+}
+.css-1lc7ooe-MuiTable-root {
+  width: 70% !important;
 }
 
-.tss-178gktx-MUIDataTableHeadCell-contentWrapper{
+.tss-178gktx-MUIDataTableHeadCell-contentWrapper {
   text-align: center !important;
   flex-direction: column;
- 
 }
-
+@media (max-width: 999.95px) {
+  .tss-2n3ybe-MUIDataTableBodyCell-stackedCommon:nth-last-of-type(2) {
+    display: none !important;
+  }
+}
 .tss-djbknv-MUIDataTablePagination-navContainer {
   flex-direction: row-reverse;
-  justify-content: flex-end
+  justify-content: flex-end;
+}
+.css-qdrned-MuiFormLabel-root-MuiInputLabel-root {
+  display: none !important;
+}
+.css-13suldg-MuiFormLabel-root-MuiInputLabel-root {
+  right: 30px !important;
+}
+.css-1xgieib-MuiSvgIcon-root-MuiSelect-icon {
+  position: inherit !important;
+  right: -10px !important;
+  cursor: pointer;
+}
+.css-1ms5b19-MuiSvgIcon-root-MuiSelect-icon {
+  position: inherit !important;
+  right: -10px !important;
+  cursor: pointer !important;
+}
+.css-1lc7ooe-MuiTable-root caption {
+  display: none !important;
+}
+
+.css-1nrlq1o-MuiFormControl-root {
+  padding: 15px !important;
+}
+.tss-13p5qut-MUIDataTableViewCol-title {
+ margin-right: 25px !important;
+}
+.css-dmmspl-MuiFormGroup-root{
+  margin-right:-20px !important;
 }

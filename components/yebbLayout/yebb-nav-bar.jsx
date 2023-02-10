@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import PropTypes from "prop-types";
 import styled from "@emotion/styled";
-import Search from "../common/Search";
 import {
   AppBar,
   Avatar,
@@ -62,7 +61,11 @@ export const YEBBNavBar = (props) => {
           >
             <MenuIcon fontSize="small" />
           </IconButton>
-          <Search/>
+          <Tooltip title="Search">
+            <IconButton sx={{ ml: 1 }} href="/search-operations">
+              <SearchIcon fontSize="small" />
+            </IconButton>
+          </Tooltip>
           <Box sx={{ flexGrow: 1 }} />
           <Tooltip title="Notifications">
             <IconButton

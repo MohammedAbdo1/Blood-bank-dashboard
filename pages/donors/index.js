@@ -1,16 +1,13 @@
-
 import { ToolBar } from "../../components/common/tool-bar";
-
-import { V1YEBBButton } from "../../components/common/V1YEBBButton";
 import api from "../../utils/api";
-
-import Table from "./Table";
+import Table from "../../components/donors/Table";
+import Modal from "../../components/donors/modal";
 
 const Page = (props) => {
   return (
     <>
-      <ToolBar title=" المتبرعين" sx={{marginBottom:20 }}>
-        <V1YEBBButton title="إضافة متبرع" />
+      <ToolBar title=" المتبرعين">
+        <Modal />
       </ToolBar>
       <Table />
     </>

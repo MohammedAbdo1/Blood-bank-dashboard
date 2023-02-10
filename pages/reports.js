@@ -1,13 +1,12 @@
-import { Box, Typography } from "@mui/material"
+import { Box } from "@mui/material";
+import ReportTab from "../components/reports/reportTab";
 
 const Page = (props) => {
-    return (
-        <Box>
-            <Typography>
-                Reports App
-            </Typography>
-        </Box>
-    )
-}
+  return (
+    <Box>
+      <ReportTab />
+    </Box>
+  );
+};
 
-export default Page
+export default Page;

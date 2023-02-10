@@ -63,7 +63,6 @@ const items = [
     icon: <CogIcon fontSize="small" />,
     title: "إعدادات النظام",
   },
-  
 ];
 
 export const YEBBSlideBar = (props) => {
